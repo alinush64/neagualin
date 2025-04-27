@@ -1,0 +1,170 @@
+/* General */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Navbar */
+#navbar {
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+#navbar a {
+  color: white;
+  margin: 0 20px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Pagina Home */
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+header p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+/* Pagina Movies */
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.movie {
+  width: 200px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.movie img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.movie .details {
+  padding: 10px;
+}
+
+.movie h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.movie button {
+  padding: 8px 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.movie button:hover {
+  background-color: #45a049;
+}
+
+/* Pagina MoviePage */
+.movie-page {
+  padding: 20px;
+}
+
+.movie-page h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.movie-page p {
+  font-size: 18px;
+}
+
+.movie-page .btn-back {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.movie-page .btn-back:hover {
+  background-color: #45a049;
+}
+
+/* Pagina Series */
+.series-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.series-item {
+  width: 200px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.series-item img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.series-item .details {
+  padding: 10px;
+}
+
+.series-item h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.series-item button {
+  padding: 8px 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.series-item button:hover {
+  background-color: #45a049;
+}
+

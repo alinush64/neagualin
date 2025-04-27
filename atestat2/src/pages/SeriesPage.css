@@ -1,0 +1,38 @@
+.trailer-video {
+    width: 90%;
+    max-width: 640px;
+    height: 360px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    display: block;
+    margin: 20px auto;
+  }
+  
+  .series-detail-image {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    display: block;
+    margin: 20px auto;
+  }
+  
+  .series-container {
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .series-container h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .series-container p {
+    font-size: 1rem;
+    margin: 10px 0;
+    line-height: 1.5;
+  }
+  
